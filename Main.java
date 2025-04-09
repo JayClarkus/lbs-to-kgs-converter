@@ -15,8 +15,6 @@ public class Main {
         		double lbs = scanner.nextDouble();
         		double kgs = lbs * 0.45359237;
             	System.out.printf("%.2f lbs = %.2f kgs",lbs, kgs);
-            	
-            	scanner.close();
             	run = false;
         	}
         	else {
@@ -25,6 +23,8 @@ public class Main {
         		scanner.nextLine();
         	}
     	}
+    	
+    	scanner.close();
     	
     }
 
